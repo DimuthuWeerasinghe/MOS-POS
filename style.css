@@ -1,0 +1,80 @@
+.navbar {
+    --bs-bg-opacity: 1;
+    background-color: #EAB543 !important;
+}
+
+.form-control{
+    background-color: #F8EFBA;
+    padding-left: 20px;
+}
+
+.navbar-brand{
+    color: #fffcf8;
+    font-size: 2rem;
+}
+
+body{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EAB543;
+}
+
+.b{
+    background-color: #995907;
+    color: #F8EFBA;
+    border: 0px;
+}
+
+.b:hover{
+    background-color: rgb(61, 27, 4);
+}
+
+.mb-4 a{
+    color: #4d2121;
+    margin-left: 4%;
+}
+
+.ms-5 a:hover{
+    color: #F1D1A9;
+}
+
+.btn{
+    border: 0px;
+}
+
+.addtocart{
+    color: #4d4c4b;
+}
+
+.container-fluat{
+    margin: 1%;
+    background-color: #F8EFBA;
+}
+@media(max-width: 600px){
+    .navbar-brand{
+        display: none;
+    }
+    .d-flex{
+        padding-right: 0px;
+        margin-top: 12px;
+    }
+    .mb-4 a{
+        margin-left: 0%;
+    }
+    .card{
+        margin-bottom: 12px;
+    }
+}
+
+@media(max-width:500px){
+    .c{
+        margin-left: 0px;
+    }
+}
+
+@media(min-width: 700px){
+    .form-control{
+        width: 400px;
+    }
+}
